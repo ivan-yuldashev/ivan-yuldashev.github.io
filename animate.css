@@ -1,0 +1,896 @@
+
+@charset "UTF-8";
+
+/*
+* animate.css -http://daneden.me/animate
+* Version - 3.6.2
+* Licensed under the MIT license - http://opensource.org/licenses/MIT
+*
+* Copyright (c) 2018 Daniel Eden
+*/
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn40 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: .4;
+    }
+}
+
+@keyframes fadeIn40 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: .4;
+    }
+}
+
+.fadeIn40 {
+    -webkit-animation-name: fadeIn40;
+    animation-name: fadeIn40;
+}
+
+.n1 {
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -o-animation-delay: .1s;
+    animation-delay: .1s;
+}
+
+.n2 {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -o-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+.n3 {
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -o-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+.n4 {
+    -webkit-animation-delay: .4s;
+    -moz-animation-delay: .4s;
+    -o-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+.n4 {
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+.n5 {
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    -o-animation-delay: .6s;
+    animation-delay: .6s;
+}
+
+.n6 {
+    -webkit-animation-delay: .7s;
+    -moz-animation-delay: .7s;
+    -o-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+
+
+
+
+/* */
+
+.animation__text {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: #fff;
+    font-weight: 500;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+    overflow: hidden;
+}
+
+.animation__text-1 {
+    color: #aa2852;
+    -webkit-clip-path: polygon(-1% -1%, 7% -16%, 6% 51%, -2% 65%);
+    clip-path: polygon(-1% -1%, 7% -16%, 6% 51%, -2% 65%);
+    -webkit-filter: blur(-2px);
+    filter: blur(-2px);
+}
+
+.animation__text-inner-1-1 {
+    -webkit-animation: vertical 709ms 10ms ease-in-out infinite alternate;
+    animation: vertical 709ms 10ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-1-2 {
+    -webkit-animation: horizontal 1250ms 62ms ease-in-out infinite alternate;
+    animation: horizontal 1250ms 62ms ease-in-out infinite alternate;
+}
+
+.animation__text-2 {
+    color: #6928ff;
+    -webkit-clip-path: polygon(4% -2%, 11% -29%, 14% 51%, 3% 56%);
+    clip-path: polygon(4% -2%, 11% -29%, 14% 51%, 3% 56%);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.animation__text-inner-2-1 {
+    -webkit-animation: vertical 1254ms 54ms ease-in-out infinite alternate;
+    animation: vertical 1254ms 54ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-2-2 {
+    -webkit-animation: horizontal 1398ms 3ms ease-in-out infinite alternate;
+    animation: horizontal 1398ms 3ms ease-in-out infinite alternate;
+}
+
+.animation__text-3 {
+    color: #6728b3;
+    -webkit-clip-path: polygon(9% -5%, 19% -26%, 16% 53%, 8% 60%);
+    clip-path: polygon(9% -5%, 19% -26%, 16% 53%, 8% 60%);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.animation__text-inner-3-1 {
+    -webkit-animation: vertical 1235ms 76ms ease-in-out infinite alternate;
+    animation: vertical 1235ms 76ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-3-2 {
+    -webkit-animation: horizontal 726ms 6ms ease-in-out infinite alternate;
+    animation: horizontal 726ms 6ms ease-in-out infinite alternate;
+}
+
+.animation__text-4 {
+    color: #be289e;
+    -webkit-clip-path: polygon(14% -3%, 23% -10%, 22% 53%, 14% 66%);
+    clip-path: polygon(14% -3%, 23% -10%, 22% 53%, 14% 66%);
+    -webkit-filter: blur(-7px);
+    filter: blur(-7px);
+}
+
+.animation__text-inner-4-1 {
+    -webkit-animation: vertical 1256ms 27ms ease-in-out infinite alternate;
+    animation: vertical 1256ms 27ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-4-2 {
+    -webkit-animation: horizontal 1479ms 26ms ease-in-out infinite alternate;
+    animation: horizontal 1479ms 26ms ease-in-out infinite alternate;
+}
+
+.animation__text-5 {
+    color: #dd284c;
+    -webkit-clip-path: polygon(19% -4%, 29% -22%, 28% 52%, 19% 52%);
+    clip-path: polygon(19% -4%, 29% -22%, 28% 52%, 19% 52%);
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+}
+
+.animation__text-inner-5-1 {
+    -webkit-animation: vertical 1658ms 75ms ease-in-out infinite alternate;
+    animation: vertical 1658ms 75ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-5-2 {
+    -webkit-animation: horizontal 1552ms 24ms ease-in-out infinite alternate;
+    animation: horizontal 1552ms 24ms ease-in-out infinite alternate;
+}
+
+.animation__text-6 {
+    color: #b7288b;
+    -webkit-clip-path: polygon(24% -4%, 34% -20%, 34% 53%, 24% 79%);
+    clip-path: polygon(24% -4%, 34% -20%, 34% 53%, 24% 79%);
+    -webkit-filter: blur(-4px);
+    filter: blur(-4px);
+}
+
+.animation__text-inner-6-1 {
+    -webkit-animation: vertical 918ms 52ms ease-in-out infinite alternate;
+    animation: vertical 918ms 52ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-6-2 {
+    -webkit-animation: horizontal 1098ms 34ms ease-in-out infinite alternate;
+    animation: horizontal 1098ms 34ms ease-in-out infinite alternate;
+}
+
+.animation__text-7 {
+    color: #d528e6;
+    -webkit-clip-path: polygon(28% -4%, 39% -6%, 39% 55%, 29% 58%);
+    clip-path: polygon(28% -4%, 39% -6%, 39% 55%, 29% 58%);
+    -webkit-filter: blur(9px);
+    filter: blur(9px);
+}
+
+.animation__text-inner-7-1 {
+    -webkit-animation: vertical 1451ms 68ms ease-in-out infinite alternate;
+    animation: vertical 1451ms 68ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-7-2 {
+    -webkit-animation: horizontal 810ms 66ms ease-in-out infinite alternate;
+    animation: horizontal 810ms 66ms ease-in-out infinite alternate;
+}
+
+.animation__text-8 {
+    color: #7a2883;
+    -webkit-clip-path: polygon(33% -1%, 43% -23%, 44% 54%, 33% 76%);
+    clip-path: polygon(33% -1%, 43% -23%, 44% 54%, 33% 76%);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.animation__text-inner-8-1 {
+    -webkit-animation: vertical 815ms 72ms ease-in-out infinite alternate;
+    animation: vertical 815ms 72ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-8-2 {
+    -webkit-animation: horizontal 806ms 97ms ease-in-out infinite alternate;
+    animation: horizontal 806ms 97ms ease-in-out infinite alternate;
+}
+
+.animation__text-9 {
+    color: #dc289e;
+    -webkit-clip-path: polygon(39% -1%, 47% -16%, 48% 55%, 38% 72%);
+    clip-path: polygon(39% -1%, 47% -16%, 48% 55%, 38% 72%);
+    -webkit-filter: blur(-4px);
+    filter: blur(-4px);
+}
+
+.animation__text-inner-9-1 {
+    -webkit-animation: vertical 1089ms 18ms ease-in-out infinite alternate;
+    animation: vertical 1089ms 18ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-9-2 {
+    -webkit-animation: horizontal 1584ms 94ms ease-in-out infinite alternate;
+    animation: horizontal 1584ms 94ms ease-in-out infinite alternate;
+}
+
+.animation__text-10 {
+    color: #52284f;
+    -webkit-clip-path: polygon(44% -3%, 55% -18%, 53% 54%, 43% 72%);
+    clip-path: polygon(44% -3%, 55% -18%, 53% 54%, 43% 72%);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.animation__text-inner-10-1 {
+    -webkit-animation: vertical 1678ms 12ms ease-in-out infinite alternate;
+    animation: vertical 1678ms 12ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-10-2 {
+    -webkit-animation: horizontal 763ms 19ms ease-in-out infinite alternate;
+    animation: horizontal 763ms 19ms ease-in-out infinite alternate;
+}
+
+.animation__text-11 {
+    color: #3d28b7;
+    -webkit-clip-path: polygon(49% -5%, 60% -18%, 59% 53%, 49% 80%);
+    clip-path: polygon(49% -5%, 60% -18%, 59% 53%, 49% 80%);
+    -webkit-filter: blur(-5px);
+    filter: blur(-5px);
+}
+
+.animation__text-inner-11-1 {
+    -webkit-animation: vertical 741ms 56ms ease-in-out infinite alternate;
+    animation: vertical 741ms 56ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-11-2 {
+    -webkit-animation: horizontal 920ms 70ms ease-in-out infinite alternate;
+    animation: horizontal 920ms 70ms ease-in-out infinite alternate;
+}
+
+.animation__text-12 {
+    color: #e728c6;
+    -webkit-clip-path: polygon(54% -4%, 64% -12%, 61% 51%, 54% 51%);
+    clip-path: polygon(54% -4%, 64% -12%, 61% 51%, 54% 51%);
+    -webkit-filter: blur(-5px);
+    filter: blur(-5px);
+}
+
+.animation__text-inner-12-1 {
+    -webkit-animation: vertical 750ms 3ms ease-in-out infinite alternate;
+    animation: vertical 750ms 3ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-12-2 {
+    -webkit-animation: horizontal 1007ms 13ms ease-in-out infinite alternate;
+    animation: horizontal 1007ms 13ms ease-in-out infinite alternate;
+}
+
+.animation__text-13 {
+    color: #ab28d6;
+    -webkit-clip-path: polygon(58% -4%, 66% -26%, 67% 52%, 59% 51%);
+    clip-path: polygon(58% -4%, 66% -26%, 67% 52%, 59% 51%);
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.animation__text-inner-13-1 {
+    -webkit-animation: vertical 1666ms 73ms ease-in-out infinite alternate;
+    animation: vertical 1666ms 73ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-13-2 {
+    -webkit-animation: horizontal 1185ms 97ms ease-in-out infinite alternate;
+    animation: horizontal 1185ms 97ms ease-in-out infinite alternate;
+}
+
+.animation__text-14 {
+    color: #d628c0;
+    -webkit-clip-path: polygon(64% -4%, 73% -28%, 74% 53%, 64% 79%);
+    clip-path: polygon(64% -4%, 73% -28%, 74% 53%, 64% 79%);
+    -webkit-filter: blur(9px);
+    filter: blur(9px);
+}
+
+.animation__text-inner-14-1 {
+    -webkit-animation: vertical 732ms 72ms ease-in-out infinite alternate;
+    animation: vertical 732ms 72ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-14-2 {
+    -webkit-animation: horizontal 1562ms 79ms ease-in-out infinite alternate;
+    animation: horizontal 1562ms 79ms ease-in-out infinite alternate;
+}
+
+.animation__text-15 {
+    color: #4428aa;
+    -webkit-clip-path: polygon(69% -1%, 79% -6%, 78% 55%, 69% 53%);
+    clip-path: polygon(69% -1%, 79% -6%, 78% 55%, 69% 53%);
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.animation__text-inner-15-1 {
+    -webkit-animation: vertical 916ms 58ms ease-in-out infinite alternate;
+    animation: vertical 916ms 58ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-15-2 {
+    -webkit-animation: horizontal 1638ms 8ms ease-in-out infinite alternate;
+    animation: horizontal 1638ms 8ms ease-in-out infinite alternate;
+}
+
+.animation__text-16 {
+    color: #472838;
+    -webkit-clip-path: polygon(73% -1%, 85% -6%, 85% 55%, 74% 64%);
+    clip-path: polygon(73% -1%, 85% -6%, 85% 55%, 74% 64%);
+    -webkit-filter: blur(-3px);
+    filter: blur(-3px);
+}
+
+.animation__text-inner-16-1 {
+    -webkit-animation: vertical 1140ms 59ms ease-in-out infinite alternate;
+    animation: vertical 1140ms 59ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-16-2 {
+    -webkit-animation: horizontal 912ms 61ms ease-in-out infinite alternate;
+    animation: horizontal 912ms 61ms ease-in-out infinite alternate;
+}
+
+.animation__text-17 {
+    color: #8d28a4;
+    -webkit-clip-path: polygon(79% -5%, 89% -5%, 87% 54%, 79% 65%);
+    clip-path: polygon(79% -5%, 89% -5%, 87% 54%, 79% 65%);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.animation__text-inner-17-1 {
+    -webkit-animation: vertical 806ms 38ms ease-in-out infinite alternate;
+    animation: vertical 806ms 38ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-17-2 {
+    -webkit-animation: horizontal 1061ms 82ms ease-in-out infinite alternate;
+    animation: horizontal 1061ms 82ms ease-in-out infinite alternate;
+}
+
+.animation__text-18 {
+    color: #6b28c1;
+    -webkit-clip-path: polygon(84% -5%, 91% -6%, 91% 54%, 83% 72%);
+    clip-path: polygon(84% -5%, 91% -6%, 91% 54%, 83% 72%);
+    -webkit-filter: blur(-9px);
+    filter: blur(-9px);
+}
+
+.animation__text-inner-18-1 {
+    -webkit-animation: vertical 1456ms 47ms ease-in-out infinite alternate;
+    animation: vertical 1456ms 47ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-18-2 {
+    -webkit-animation: horizontal 741ms 18ms ease-in-out infinite alternate;
+    animation: horizontal 741ms 18ms ease-in-out infinite alternate;
+}
+
+.animation__text-19 {
+    color: #e728a6;
+    -webkit-clip-path: polygon(88% -2%, 97% -1%, 98% 52%, 88% 73%);
+    clip-path: polygon(88% -2%, 97% -1%, 98% 52%, 88% 73%);
+    -webkit-filter: blur(-6px);
+    filter: blur(-6px);
+}
+
+.animation__text-inner-19-1 {
+    -webkit-animation: vertical 1221ms 96ms ease-in-out infinite alternate;
+    animation: vertical 1221ms 96ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-19-2 {
+    -webkit-animation: horizontal 861ms 35ms ease-in-out infinite alternate;
+    animation: horizontal 861ms 35ms ease-in-out infinite alternate;
+}
+
+.animation__text-20 {
+    color: #d928f3;
+    -webkit-clip-path: polygon(93% -3%, 102% -12%, 101% 52%, 93% 72%);
+    clip-path: polygon(93% -3%, 102% -12%, 101% 52%, 93% 72%);
+    -webkit-filter: blur(-3px);
+    filter: blur(-3px);
+}
+
+.animation__text-inner-20-1 {
+    -webkit-animation: vertical 1194ms 48ms ease-in-out infinite alternate;
+    animation: vertical 1194ms 48ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-20-2 {
+    -webkit-animation: horizontal 1329ms 14ms ease-in-out infinite alternate;
+    animation: horizontal 1329ms 14ms ease-in-out infinite alternate;
+}
+
+.animation__text-21 {
+    color: #ce289c;
+    -webkit-clip-path: polygon(-1% 45%, 7% 30%, 10% 104%, -1% 117%);
+    clip-path: polygon(-1% 45%, 7% 30%, 10% 104%, -1% 117%);
+    -webkit-filter: blur(-6px);
+    filter: blur(-6px);
+}
+
+.animation__text-inner-21-1 {
+    -webkit-animation: vertical 1526ms 72ms ease-in-out infinite alternate;
+    animation: vertical 1526ms 72ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-21-2 {
+    -webkit-animation: horizontal 913ms 59ms ease-in-out infinite alternate;
+    animation: horizontal 913ms 59ms ease-in-out infinite alternate;
+}
+
+.animation__text-22 {
+    color: #8d2892;
+    -webkit-clip-path: polygon(3% 48%, 12% 21%, 15% 104%, 3% 124%);
+    clip-path: polygon(3% 48%, 12% 21%, 15% 104%, 3% 124%);
+    -webkit-filter: blur(-9px);
+    filter: blur(-9px);
+}
+
+.animation__text-inner-22-1 {
+    -webkit-animation: vertical 1593ms 10ms ease-in-out infinite alternate;
+    animation: vertical 1593ms 10ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-22-2 {
+    -webkit-animation: horizontal 1638ms 66ms ease-in-out infinite alternate;
+    animation: horizontal 1638ms 66ms ease-in-out infinite alternate;
+}
+
+.animation__text-23 {
+    color: #aa287b;
+    -webkit-clip-path: polygon(8% 47%, 16% 26%, 19% 102%, 8% 112%);
+    clip-path: polygon(8% 47%, 16% 26%, 19% 102%, 8% 112%);
+    -webkit-filter: blur(-6px);
+    filter: blur(-6px);
+}
+
+.animation__text-inner-23-1 {
+    -webkit-animation: vertical 1420ms 34ms ease-in-out infinite alternate;
+    animation: vertical 1420ms 34ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-23-2 {
+    -webkit-animation: horizontal 1418ms 55ms ease-in-out infinite alternate;
+    animation: horizontal 1418ms 55ms ease-in-out infinite alternate;
+}
+
+.animation__text-24 {
+    color: #5a2887;
+    -webkit-clip-path: polygon(14% 48%, 23% 25%, 23% 102%, 14% 121%);
+    clip-path: polygon(14% 48%, 23% 25%, 23% 102%, 14% 121%);
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.animation__text-inner-24-1 {
+    -webkit-animation: vertical 1533ms 83ms ease-in-out infinite alternate;
+    animation: vertical 1533ms 83ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-24-2 {
+    -webkit-animation: horizontal 731ms 27ms ease-in-out infinite alternate;
+    animation: horizontal 731ms 27ms ease-in-out infinite alternate;
+}
+
+.animation__text-25 {
+    color: #a5283f;
+    -webkit-clip-path: polygon(18% 46%, 28% 22%, 28% 102%, 18% 119%);
+    clip-path: polygon(18% 46%, 28% 22%, 28% 102%, 18% 119%);
+    -webkit-filter: blur(-2px);
+    filter: blur(-2px);
+}
+
+.animation__text-inner-25-1 {
+    -webkit-animation: vertical 810ms 99ms ease-in-out infinite alternate;
+    animation: vertical 810ms 99ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-25-2 {
+    -webkit-animation: horizontal 1205ms 45ms ease-in-out infinite alternate;
+    animation: horizontal 1205ms 45ms ease-in-out infinite alternate;
+}
+
+.animation__text-26 {
+    color: #a528ac;
+    -webkit-clip-path: polygon(23% 46%, 33% 42%, 31% 103%, 23% 120%);
+    clip-path: polygon(23% 46%, 33% 42%, 31% 103%, 23% 120%);
+    -webkit-filter: blur(7px);
+    filter: blur(7px);
+}
+
+.animation__text-inner-26-1 {
+    -webkit-animation: vertical 922ms 62ms ease-in-out infinite alternate;
+    animation: vertical 922ms 62ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-26-2 {
+    -webkit-animation: horizontal 923ms 73ms ease-in-out infinite alternate;
+    animation: horizontal 923ms 73ms ease-in-out infinite alternate;
+}
+
+.animation__text-27 {
+    color: #88287f;
+    -webkit-clip-path: polygon(28% 49%, 37% 34%, 39% 104%, 29% 116%);
+    clip-path: polygon(28% 49%, 37% 34%, 39% 104%, 29% 116%);
+    -webkit-filter: blur(6px);
+    filter: blur(6px);
+}
+
+.animation__text-inner-27-1 {
+    -webkit-animation: vertical 1595ms 34ms ease-in-out infinite alternate;
+    animation: vertical 1595ms 34ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-27-2 {
+    -webkit-animation: horizontal 949ms 64ms ease-in-out infinite alternate;
+    animation: horizontal 949ms 64ms ease-in-out infinite alternate;
+}
+
+.animation__text-28 {
+    color: #822849;
+    -webkit-clip-path: polygon(34% 47%, 45% 48%, 44% 103%, 33% 101%);
+    clip-path: polygon(34% 47%, 45% 48%, 44% 103%, 33% 101%);
+    -webkit-filter: blur(-1px);
+    filter: blur(-1px);
+}
+
+.animation__text-inner-28-1 {
+    -webkit-animation: vertical 973ms 40ms ease-in-out infinite alternate;
+    animation: vertical 973ms 40ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-28-2 {
+    -webkit-animation: horizontal 739ms 86ms ease-in-out infinite alternate;
+    animation: horizontal 739ms 86ms ease-in-out infinite alternate;
+}
+
+.animation__text-29 {
+    color: #de286f;
+    -webkit-clip-path: polygon(39% 49%, 50% 34%, 48% 105%, 38% 110%);
+    clip-path: polygon(39% 49%, 50% 34%, 48% 105%, 38% 110%);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.animation__text-inner-29-1 {
+    -webkit-animation: vertical 836ms 32ms ease-in-out infinite alternate;
+    animation: vertical 836ms 32ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-29-2 {
+    -webkit-animation: horizontal 1608ms 53ms ease-in-out infinite alternate;
+    animation: horizontal 1608ms 53ms ease-in-out infinite alternate;
+}
+
+.animation__text-30 {
+    color: #f928a8;
+    -webkit-clip-path: polygon(44% 48%, 51% 37%, 55% 101%, 44% 130%);
+    clip-path: polygon(44% 48%, 51% 37%, 55% 101%, 44% 130%);
+    -webkit-filter: blur(-7px);
+    filter: blur(-7px);
+}
+.animation__text-inner-30-1 {
+    -webkit-animation: vertical 1082ms 84ms ease-in-out infinite alternate;
+    animation: vertical 1082ms 84ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-30-2 {
+    -webkit-animation: horizontal 1118ms 51ms ease-in-out infinite alternate;
+    animation: horizontal 1118ms 51ms ease-in-out infinite alternate;
+}
+
+.animation__text-31 {
+    color: #7628a8;
+    -webkit-clip-path: polygon(49% 47%, 57% 35%, 58% 101%, 48% 124%);
+    clip-path: polygon(49% 47%, 57% 35%, 58% 101%, 48% 124%);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.animation__text-inner-31-1 {
+    -webkit-animation: vertical 1025ms 53ms ease-in-out infinite alternate;
+    animation: vertical 1025ms 53ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-31-2 {
+    -webkit-animation: horizontal 878ms 35ms ease-in-out infinite alternate;
+    animation: horizontal 878ms 35ms ease-in-out infinite alternate;
+}
+
+.animation__text-32 {
+    color: #d42882;
+    -webkit-clip-path: polygon(54% 49%, 64% 39%, 62% 105%, 53% 101%);
+    clip-path: polygon(54% 49%, 64% 39%, 62% 105%, 53% 101%);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.animation__text-inner-32-1 {
+    -webkit-animation: vertical 1699ms 23ms ease-in-out infinite alternate;
+    animation: vertical 1699ms 23ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-32-2 {
+    -webkit-animation: horizontal 915ms 71ms ease-in-out infinite alternate;
+    animation: horizontal 915ms 71ms ease-in-out infinite alternate;
+}
+
+.animation__text-33 {
+    color: #a52854;
+    -webkit-clip-path: polygon(58% 48%, 69% 25%, 67% 102%, 59% 103%);
+    clip-path: polygon(58% 48%, 69% 25%, 67% 102%, 59% 103%);
+    -webkit-filter: blur(-5px);
+    filter: blur(-5px);
+}
+
+.animation__text-inner-33-1 {
+    -webkit-animation: vertical 1011ms 93ms ease-in-out infinite alternate;
+    animation: vertical 1011ms 93ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-33-2 {
+    -webkit-animation: horizontal 1103ms 62ms ease-in-out infinite alternate;
+    animation: horizontal 1103ms 62ms ease-in-out infinite alternate;
+}
+
+.animation__text-34 {
+    color: #7c28fa;
+    -webkit-clip-path: polygon(63% 49%, 72% 41%, 72% 101%, 63% 107%);
+    clip-path: polygon(63% 49%, 72% 41%, 72% 101%, 63% 107%);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.animation__text-inner-34-1 {
+    -webkit-animation: vertical 720ms 32ms ease-in-out infinite alternate;
+    animation: vertical 720ms 32ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-34-2 {
+    -webkit-animation: horizontal 1007ms 27ms ease-in-out infinite alternate;
+    animation: horizontal 1007ms 27ms ease-in-out infinite alternate;
+}
+
+.animation__text-35 {
+    color: #8028e6;
+    -webkit-clip-path: polygon(68% 48%, 76% 48%, 79% 103%, 69% 103%);
+    clip-path: polygon(68% 48%, 76% 48%, 79% 103%, 69% 103%);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.animation__text-inner-35-1 {
+    -webkit-animation: vertical 813ms 88ms ease-in-out infinite alternate;
+    animation: vertical 813ms 88ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-35-2 {
+    -webkit-animation: horizontal 1338ms 81ms ease-in-out infinite alternate;
+    animation: horizontal 1338ms 81ms ease-in-out infinite alternate;
+}
+
+.animation__text-36 {
+    color: #3d2894;
+    -webkit-clip-path: polygon(73% 47%, 84% 49%, 81% 102%, 73% 106%);
+    clip-path: polygon(73% 47%, 84% 49%, 81% 102%, 73% 106%);
+    -webkit-filter: blur(-9px);
+    filter: blur(-9px);
+}
+
+.animation__text-inner-36-1 {
+    -webkit-animation: vertical 1213ms 39ms ease-in-out infinite alternate;
+    animation: vertical 1213ms 39ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-36-2 {
+    -webkit-animation: horizontal 1015ms 10ms ease-in-out infinite alternate;
+    animation: horizontal 1015ms 10ms ease-in-out infinite alternate;
+}
+
+.animation__text-37 {
+    color: #c82847;
+    -webkit-clip-path: polygon(79% 49%, 87% 44%, 88% 104%, 78% 104%);
+    clip-path: polygon(79% 49%, 87% 44%, 88% 104%, 78% 104%);
+    -webkit-filter: blur(-7px);
+    filter: blur(-7px);
+}
+
+.animation__text-inner-37-1 {
+    -webkit-animation: vertical 1596ms 97ms ease-in-out infinite alternate;
+    animation: vertical 1596ms 97ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-37-2 {
+    -webkit-animation: horizontal 1446ms 46ms ease-in-out infinite alternate;
+    animation: horizontal 1446ms 46ms ease-in-out infinite alternate;
+}
+
+.animation__text-38 {
+    color: #98286e;
+    -webkit-clip-path: polygon(84% 48%, 91% 40%, 93% 101%, 83% 104%);
+    clip-path: polygon(84% 48%, 91% 40%, 93% 101%, 83% 104%);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.animation__text-inner-38-1 {
+    -webkit-animation: vertical 1471ms 5ms ease-in-out infinite alternate;
+    animation: vertical 1471ms 5ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-38-2 {
+    -webkit-animation: horizontal 1247ms 14ms ease-in-out infinite alternate;
+    animation: horizontal 1247ms 14ms ease-in-out infinite alternate;
+}
+
+.animation__text-39 {
+    color: #8628cc;
+    -webkit-clip-path: polygon(89% 46%, 98% 41%, 97% 105%, 88% 114%);
+    clip-path: polygon(89% 46%, 98% 41%, 97% 105%, 88% 114%);
+    -webkit-filter: blur(-1px);
+    filter: blur(-1px);
+}
+
+.animation__text-inner-39-1 {
+    -webkit-animation: vertical 1575ms 16ms ease-in-out infinite alternate;
+    animation: vertical 1575ms 16ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-39-2 {
+    -webkit-animation: horizontal 1334ms 27ms ease-in-out infinite alternate;
+    animation: horizontal 1334ms 27ms ease-in-out infinite alternate;
+}
+
+.animation__text-40 {
+    color: #5428ac;
+    -webkit-clip-path: polygon(93% 46%, 103% 29%, 103% 102%, 93% 127%);
+    clip-path: polygon(93% 46%, 103% 29%, 103% 102%, 93% 127%);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.animation__text-inner-40-1 {
+    -webkit-animation: vertical 887ms 16ms ease-in-out infinite alternate;
+    animation: vertical 887ms 16ms ease-in-out infinite alternate;
+}
+
+.animation__text-inner-40-2 {
+    -webkit-animation: horizontal 1620ms 17ms ease-in-out infinite alternate;
+    animation: horizontal 1620ms 17ms ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes horizontal {
+    0% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    100% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+}
+
+@keyframes horizontal {
+    0% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    100% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+}
+
+@-webkit-keyframes vertical {
+    0% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+}
+
+@keyframes vertical {
+    0% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    100% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+}

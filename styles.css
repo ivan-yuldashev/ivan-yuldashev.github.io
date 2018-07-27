@@ -330,6 +330,7 @@ template {
     white-space: nowrap;
     text-transform: uppercase;
     opacity: .4;
+    transition: opacity 1s;
     margin-top: 1px;
     float: right;
 }

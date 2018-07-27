@@ -216,36 +216,12 @@ template {
     position: fixed;
     top: 50%;
     left: 50%;
+    opacity: .4;
 }
 
 .animation__text {
-    font-size: 20rem;
-    line-height: 20rem;
-}
-
-
-
-
-
-
-/* Overlays */
-
-.overlays,
-.overlays__left-to-right {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.overlays__left-to-right {
-    background-image: linear-gradient(90deg,
-        rgba(0, 0, 0,.8) 35%,rgba(0, 0, 0,.08)),
-        linear-gradient(0deg,rgba(0, 0, 0,.4),
-        transparent 20%,
-        transparent 80%,
-        rgba(0, 0, 0,.4));
+    font-size: 18rem;
+    line-height: 18rem;
 }
 
 
@@ -265,21 +241,38 @@ template {
 }
 
 .menu {
-    position: fixed;
-    top: 30px;
-    left: 20px;
-    height: calc(100vh - 60px);
     z-index: 1;
+    margin: 20px 30px;
 }
 
-.menu__logo {
+.menu__logo,
+.menu__link,
+.menu__back {
+    float: left;
+}
+
+.menu__logo,
+.menu__back {
     width: 28px;
+    height: 20px;
+}
+
+.menu__back {
+    opacity: .4;
+    transition: opacity 1s;
+}
+
+.menu__back:hover {
+    opacity: 1;
 }
 
 .menu__logo-line-v,
 .menu__logo-line-g,
-.menu__logo-circle {
-    float: left;;
+.menu__logo-circle,
+.menu__back-line-t,
+.menu__back-line-c,
+.menu__back-line-b {
+    float: left;
 }
 
 .menu__logo-line-v {
@@ -303,6 +296,31 @@ template {
     border-radius: 50%;
 }
 
+.menu__back-line-t {
+    margin-top: 9px;
+    width: 12px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.menu__back-line-c {
+    width: 28px;
+    height: 2px;
+    margin-top: -2px;
+    background: #fff;
+}
+
+.menu__back-line-b {
+    width: 12px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(45deg);
+    margin-top: -2px;
+    transform-origin: left top;
+}
+
 .menu__link {
     letter-spacing: .2em;
     font-size: .8em;
@@ -310,27 +328,10 @@ template {
     line-height: 1.6em;
     font-weight: 500;
     white-space: nowrap;
-    transform: rotate(-90deg);
-    transform-origin: left bottom;
     text-transform: uppercase;
     opacity: .4;
-    transition: opacity 1s;
-}
-
-.menu__link--history {
-    position: absolute;
-    left: 28px;
-    bottom: 0px;
-}
-
-.menu__link--about {
-    position: absolute;
-    left: 28px;
-    top: 80px;
-}
-
-.menu__link-margin {
-    margin-left: 40px;
+    margin-top: 1px;
+    float: right;
 }
 
 .menu__link--active {
@@ -341,19 +342,31 @@ template {
     opacity: 1;
 }
 
-.menu__history-icon {
-    position: absolute;
-    top: 0;
-    width: 21px;
+.works__archive-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: .4;
+    transition: opacity 1s;
+    padding: 16px 10px;
+    margin: 20px auto;
 }
 
-.menu__history-dot {
+.works__archive-icon:hover {
+    opacity: 1;
+}
+
+.works__archive-icon-dot {
     width: 4px;
     height: 4px;
-    float: left;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
-    margin: 0 3px 3px 0;
+    float: left;
+}
+
+.dot-margin {
+    margin-right: 2px;
 }
 
 
@@ -370,7 +383,7 @@ template {
 .works__lists {
     list-style: none;
     padding: 0;
-    margin-left: 68px;
+    text-align: center;
 }
 
 .works__work {
@@ -390,8 +403,9 @@ template {
     margin: auto;
 }
 
-.about__text {
-    margin: 80px 40px 80px 68px;
+.about__text,
+.archive {
+    margin: 40px 40px 40px 30px;
     max-width: 560px;
 }
 
@@ -422,10 +436,6 @@ template {
 
 /* Archive */
 
-.archive {
-    margin: 100px auto;
-}
-
 .archive__work-container {
     width: 80vw;
     max-width: 600px;
@@ -440,6 +450,15 @@ template {
 
 /* @Media */
 
+@media (min-width: 600px) {
+
+    .works__work {
+        font-size: 3.2em;
+        line-height: 1.6em;
+    }
+
+}
+
 @media (min-width: 860px) {
 
     .animation__text {
@@ -448,22 +467,43 @@ template {
     }
 
     .menu {
+        position: fixed;
         top: 50px;
         left: 50px;
-        height: calc(100vh - 100px);
+        margin: 0;
     }
 
-    .about__text {
+    .menu__logo,
+    .menu__link,
+    .menu__back {
+        float: none;
+    }
+
+    .menu__link--about {
+        position: absolute;
+        left: 28px;
+        top: 80px;
+    }
+
+    .menu__link {
+        transform: rotate(-90deg);
+        transform-origin: left bottom;
+        margin: 0;
+        float: none;
+    }
+
+    .about__text,
+    .archive {
         margin: 100px 80px 100px 136px;
     }
 
     .works__lists {
-        margin-left: 136px;
+        text-align: left;
+        margin-left: 186px;
     }
 
-    .works__work {
-        font-size: 3.2em;
-        line-height: 1.6em;
+    .works__archive-icon {
+        margin: 20px 0 0 2px;
     }
 
 }

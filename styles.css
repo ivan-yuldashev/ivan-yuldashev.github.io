@@ -453,6 +453,11 @@ template {
 
 @media (min-width: 600px) {
 
+    .animation__text {
+        font-size: 28rem;
+        line-height: 28rem;
+    }
+
     .works__work {
         font-size: 3.2em;
         line-height: 1.6em;
@@ -464,11 +469,6 @@ template {
 
     .container--index {
         height: 100vh
-    }
-
-    .animation__text {
-        font-size: 28rem;
-        line-height: 28rem;
     }
 
     .menu {

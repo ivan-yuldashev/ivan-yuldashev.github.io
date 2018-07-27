@@ -216,7 +216,7 @@ template {
     position: fixed;
     top: 50%;
     left: 50%;
-    opacity: .4;
+    opacity: .6;
 }
 
 .animation__text {
@@ -330,6 +330,7 @@ template {
     white-space: nowrap;
     text-transform: uppercase;
     opacity: .4;
+    transition: opacity 1s;
     margin-top: 1px;
     float: right;
 }

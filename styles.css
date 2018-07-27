@@ -412,14 +412,14 @@ template {
 
 .paragraph {
     color: #fff;
-    font-size: 1.4em;
-    line-height: 1.6em;
+    font-size: .8em;
+    line-height: 1em;
     font-weight: 400;
 }
 
 .paragraph--email {
-    font-size: 3.2em;
-    line-height: 3.2em;
+    font-size: 1.6em;
+    line-height: 1.6em;
 }
 
 .paragraph--social {
@@ -461,6 +461,16 @@ template {
     .works__work {
         font-size: 3.2em;
         line-height: 1.6em;
+    }
+
+    .paragraph {
+        font-size: 1.4em;
+        line-height: 1.6em;
+    }
+
+    .paragraph--email {
+        font-size: 3.2em;
+        line-height: 3.2em;
     }
 
 }

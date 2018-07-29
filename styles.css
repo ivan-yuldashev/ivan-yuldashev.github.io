@@ -523,8 +523,16 @@ template {
 
 }
 
+@media (min-width: 1300px) {
 
-@media (min-width: 1200px) {
+    .works__lists {
+        margin-left: 206px;
+    }
+
+}
+
+
+@media (min-width: 1500px) {
 
     .animation__text {
         font-size: 40rem;

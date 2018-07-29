@@ -524,4 +524,19 @@ template {
 }
 
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+
+    .animation__text {
+        font-size: 40rem;
+        line-height: 40rem;
+    }
+
+    .works__lists {
+        margin-left: 246px;
+    }
+
+    .works__work {
+        font-size: 4.2em;
+    }
+
+}

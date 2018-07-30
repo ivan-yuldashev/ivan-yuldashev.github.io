@@ -254,8 +254,9 @@ template {
 
 .menu__logo,
 .menu__back {
-    width: 28px;
-    height: 20px;
+    width: 40px;
+    height: 32px;
+    padding: 6px;
 }
 
 .menu__back {
@@ -333,7 +334,7 @@ template {
     text-transform: uppercase;
     opacity: .4;
     transition: opacity 1s;
-    margin-top: -5px;
+    margin-top: 1px;
     float: right;
 }
 
@@ -483,8 +484,8 @@ template {
 
     .menu {
         position: fixed;
-        top: 50px;
-        left: 50px;
+        top: 44px;
+        left: 44px;
         margin: 0;
     }
 
@@ -496,8 +497,8 @@ template {
 
     .menu__link--about {
         position: absolute;
-        left: 35px;
-        top: 84px;
+        left: 41px;
+        top: 80px;
     }
 
     .menu__link {

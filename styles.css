@@ -323,16 +323,17 @@ template {
 }
 
 .menu__link {
+    padding: 6px;
     letter-spacing: .2em;
     font-size: .8em;
-    color: #fff;
     line-height: 1.6em;
+    color: #fff;
     font-weight: 500;
     white-space: nowrap;
     text-transform: uppercase;
     opacity: .4;
     transition: opacity 1s;
-    margin-top: 1px;
+    margin-top: -5px;
     float: right;
 }
 
@@ -465,7 +466,6 @@ template {
 
     .works__work {
         font-size: 3.2em;
-        line-height: 1.6em;
     }
 
     .paragraph {
@@ -496,8 +496,8 @@ template {
 
     .menu__link--about {
         position: absolute;
-        left: 28px;
-        top: 80px;
+        left: 35px;
+        top: 84px;
     }
 
     .menu__link {

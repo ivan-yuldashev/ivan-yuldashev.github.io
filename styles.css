@@ -413,7 +413,7 @@ template {
 
 .about__text,
 .archive {
-    margin: 40px 40px 40px 30px;
+    margin: 36px;
     max-width: 560px;
 }
 
